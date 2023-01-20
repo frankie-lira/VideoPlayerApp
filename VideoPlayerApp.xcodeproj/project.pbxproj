@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2651D54297A3177002C18B6 /* VideoManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2651D53297A3177002C18B6 /* VideoManger.swift */; };
 		C2B2822C2979E491007007CE /* VideoPlayerAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B2822B2979E491007007CE /* VideoPlayerAppApp.swift */; };
 		C2B2822E2979E491007007CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B2822D2979E491007007CE /* ContentView.swift */; };
 		C2B282302979E493007007CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2B2822F2979E493007007CE /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C2651D53297A3177002C18B6 /* VideoManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoManger.swift; sourceTree = "<group>"; };
 		C2B282282979E491007007CE /* VideoPlayerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoPlayerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2B2822B2979E491007007CE /* VideoPlayerAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerAppApp.swift; sourceTree = "<group>"; };
 		C2B2822D2979E491007007CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				C2B282552979E59E007007CE /* Components */,
 				C2B2822F2979E493007007CE /* Assets.xcassets */,
 				C2B282312979E493007007CE /* Preview Content */,
+				C2651D53297A3177002C18B6 /* VideoManger.swift */,
 			);
 			path = VideoPlayerApp;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2B2822E2979E491007007CE /* ContentView.swift in Sources */,
+				C2651D54297A3177002C18B6 /* VideoManger.swift in Sources */,
 				C2B282572979E5C0007007CE /* QueryTag.swift in Sources */,
 				C2B2822C2979E491007007CE /* VideoPlayerAppApp.swift in Sources */,
 			);

@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct QueryTag: View {
-    var query: String
+    var query: Query // This makes for it to not pass a string inseatd it will pass any of the following: nature, animals, people, ocean, food
     var isSelected: Bool
     
     var body: some View {
-        Text(query)
+        Text(query.rawValue) //its rawvalue to get the exact
             .font(.caption)
             .bold()
             .foregroundColor(isSelected ? .black : .gray)
@@ -24,6 +24,6 @@ struct QueryTag: View {
 
 struct QueryTag_Previews: PreviewProvider {
     static var previews: some View {
-        QueryTag(query: "Nature", isSelected: true)
+        QueryTag(query: Query.food, isSelected: true)
     }
 }
